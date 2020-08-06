@@ -31,6 +31,7 @@ export default [
       file: "./dist/umd.min.js",
       format: "umd",
       name: "IdealPostcodes",
+      extend: true,
       exports: "named",
     },
     plugins: [resolve(), commonjs(), terser({})],
