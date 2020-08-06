@@ -1,12 +1,13 @@
 <h1 align="center">
-  <img src="https://img.ideal-postcodes.co.uk/Ideal%20Postcodes%20Browser%20Logo@3x.png" alt="Ideal Postcodes Javascript Client">
+  <img src="http://img.ideal-postcodes.co.uk/Ideal%20Postcodes%20Open%20Source%20Logo@3x.png" alt="Capitalise Post Town Bundled">
 </h1>
 
 > JavaScript browser bundles for capitalise-town-town
 
 [![npm version](https://badge.fury.io/js/%40ideal-postcodes%2Fcapitalise-post-town-bundled.svg)](https://badge.fury.io/js/%40ideal-postcodes%2Fcapitalise-post-town-bundled)
 [![jscdn](https://badgen.net/jsdelivr/v/npm/@ideal-postcodes/capitalise-post-town-bundled)](https://cdn.jsdelivr.net/npm/@ideal-postcodes/capitalise-post-town-bundled/dist/)
-[![Release](https://github.com/ideal-postcodes/capitalise-post-town-bundled/workflows/Release/badge.svg)](https://github.com/ideal-postcodes/capitalise-post-town-bundled/actions)
+![CI](https://github.com/ideal-postcodes/capitalise-post-town-bundled/workflows/CI/badge.svg)
+![Release](https://github.com/ideal-postcodes/capitalise-post-town-bundled/workflows/Release/badge.svg)
 
 This package exports polyfilled, minified copies of `capitalise-post-town` in various formats available on npm and various JavaScript CDNs. It can be readily [dropped in](#usage) on a page.
 
