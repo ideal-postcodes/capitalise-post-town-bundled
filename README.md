@@ -45,7 +45,7 @@ Latest and pinned versions of each bundle can be downloaded from [jsdelivr.com](
   src="https://cdn.jsdelivr.net/npm/@ideal-postcodes/capitalise-post-town-bundled/dist/esm.min.js"></script>
 
 <script type="module">
-import { capitalisePostTown } from "https://cdn.jsdelivr.net/npm/@ideal-postcodes/capitalise-post-town-bundled/dist.esm.min.js";
+import { capitalisePostTown } from "https://cdn.jsdelivr.net/npm/@ideal-postcodes/capitalise-post-town-bundled/dist/esm.min.js";
 capitalisePostTown("LONDON"); // => "London"
 </script>
 ```
