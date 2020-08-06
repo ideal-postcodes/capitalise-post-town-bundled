@@ -1,0 +1,60 @@
+{
+  "name": "@ideal-postcodes/capitalise-post-town-bundled",
+  "version": "1.0.0",
+  "description": "JS bundles for api.ideal-postcodes.co.uk clients",
+  "author": {
+    "name": "Ideal Postcodes",
+    "email": "support@ideal-postcodes.co.uk",
+    "url": "https://ideal-postcodes.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/ideal-postcodes/capitalise-post-town-bundled/issues",
+    "email": "support@ideal-postcodes.co.uk"
+  },
+  "homepage": "https://github.com/ideal-postcodes/capitalise-post-town-bundled",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideal-postcodes/capitalise-post-town-bundled.git"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release --no-ci",
+    "start": "http-server",
+    "build": "rollup -c",
+    "test": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "main": "dist/umd.min.js",
+  "module": "dist/esm.min.js",
+  "files": [
+    "dist"
+  ],
+  "prettier": {
+    "trailingComma": "es5"
+  },
+  "engines": {
+    "node": ">=12.0"
+  },
+  "keywords": [
+    "Capitalise",
+    "UK",
+    "Post Town",
+    "Ideal Postcodes",
+    "Browser"
+  ],
+  "release": {
+    "extends": "@cablanchard/semantic-release/dist/npm"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cablanchard/semantic-release": "~1.3.0",
+    "@rollup/plugin-commonjs": "~12.0.0",
+    "@rollup/plugin-node-resolve": "~8.4.0",
+    "capitalise-post-town": "~2.0.3",
+    "http-server": "~0.12.0",
+    "prettier": "~2.0.2",
+    "rollup": "~2.23.0",
+    "rollup-plugin-terser": "~6.1.0",
+    "semantic-release": "~17.1.0"
+  },
+  "dependencies": {}
+}

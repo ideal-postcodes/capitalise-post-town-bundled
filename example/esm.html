@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Getting Started</title>
+    <style>
+      body {
+        max-width: 38rem;
+        padding: 2rem;
+        margin: auto;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://img.ideal-postcodes.co.uk/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://img.ideal-postcodes.co.uk/favicon.ico"
+    />
+    <script type="module" src="esm.min.js"></script>
+  </head>
+  <body>
+    <h1>ESM Demo</h1>
+    <pre id="result">// Print result here</pre>
+    <script type="module">
+      import { capitalisePostTown } from "../dist/esm.min.js";
+      document.getElementById("result").innerText = capitalisePostTown(
+        "LONDON"
+      );
+    </script>
+  </body>
+</html>
