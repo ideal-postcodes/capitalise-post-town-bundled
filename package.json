@@ -52,7 +52,7 @@
     "capitalise-post-town": "~2.0.3",
     "http-server": "~0.12.0",
     "prettier": "~2.1.1",
-    "rollup": "~2.33.1",
+    "rollup": "~2.34.1",
     "rollup-plugin-terser": "~7.0.2",
     "semantic-release": "~17.2.1"
   },
