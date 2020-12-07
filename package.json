@@ -48,7 +48,7 @@
   "devDependencies": {
     "@cablanchard/semantic-release": "~1.3.0",
     "@rollup/plugin-commonjs": "~16.0.0",
-    "@rollup/plugin-node-resolve": "~10.0.0",
+    "@rollup/plugin-node-resolve": "~11.0.0",
     "capitalise-post-town": "~2.0.3",
     "http-server": "~0.12.0",
     "prettier": "~2.2.1",
